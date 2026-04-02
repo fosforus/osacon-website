@@ -5,7 +5,7 @@ images:
  - "/images/partners/airflow-summit.png"
 webUrl: "https://airflowsummit.org/"
 weight: 13
-draft: false
+draft: true
 ---
 
 

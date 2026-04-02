@@ -2,7 +2,7 @@
 event_info:
   enable : true
   title : "What is OSA CON?"
-  description : "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics. Learn, share, connect, and explore the latest in data ingestion, orchestration, databases, infrastructure, governance, visualization, and AI. Join the doers of the modern data stack."
+  description : "OSA Con is a community-driven conference for engineers and architects building modern analytics and AI systems. Organized by the Open Source Analytics (OSA) community, the conference brings together practitioners, project maintainers, and data leaders to share real-world architectures, lessons from production systems, and updates from the open-source tools powering today’s analytics and AI platforms."
   cta_text: "Sign up for updates"
   cta_link: "/sing-up-for-updates"
   features: 

@@ -82,7 +82,7 @@ start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "Free, online."
+text = "Join online or in San Francisco · Nov 2"
 
 [params.hero.cta1]
 text = "Become a speaker"
@@ -124,7 +124,7 @@ link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
     name = "Code of Conduct"
     url = "/coc"
 
- [[params.links.footer_resources]]
+ [[params.links.footer_resources_draft]]
     name = "Prospectus"
     url = "/files/osacon2025-prospectus_v1.pdf"
 

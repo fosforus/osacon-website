@@ -108,23 +108,24 @@ section.hero-alt {
   } 
   #button-hero1:hover {
     background-color: $primary-color;
+    border-color: white;
   }
   #button-hero1:hover a, #button-hero1 a:hover {
     color: white;
   }
 
   #button-hero2 { 
-    background-color: $primary-color;
+    background-color: transparent;
     border: solid white 2px;
   } 
   #button-hero2:hover {
-    background-color: white;
+    background-color: $primary-color;
   }
   #button-hero2 a { 
     color: white;
   }
   #button-hero2:hover a, #button-hero2 a:hover {
-    color: $primary-color;
+    color: white;
   }
   @media (max-width:768px) {
     padding-left: 0;

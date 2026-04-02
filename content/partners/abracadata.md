@@ -2,8 +2,9 @@
 title: "Abracadata"
 level: "collaborators"
 images:
- - /images/partners/abracadata-logo.png
-webUrl: https://abracadata.space/
+ - "/images/partners/abracadata-logo.png"
+webUrl: "https://abracadata.space/"
+draft: true
 
 ---
 
