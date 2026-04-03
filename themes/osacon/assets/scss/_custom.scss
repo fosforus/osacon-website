@@ -170,6 +170,14 @@ section.swag p {
 	}
 }
 
+.event-info .btn-outline-primary>a {
+	color: $primary-color;
+	text-transform: uppercase;
+	&:hover {
+		color: white !important;
+	}
+}
+
 .list-content {
 	margin-bottom: 1.6em;
 }
