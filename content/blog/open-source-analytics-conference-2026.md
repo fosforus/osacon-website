@@ -1,5 +1,5 @@
 ---
-title: "Open Source Analytics Conference 2026: In-Person Debut + Hybrid Event"
+title: "Open Source Analytics Conference 2026: In-Person Debut + Online Hybrid Event"
 date: 2026-04-23T10:00:00
 # redirection: /sessions/2024
 # post thumb
