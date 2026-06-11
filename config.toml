@@ -28,12 +28,31 @@ speaker = "speakers"
   url = "/about"
   weight = 1
 
-  [[menu.main]]
-    name = "Sessions"
-    url = "/sessions/2025"
-    weight = 2
+[[menu.main]]
+  name = "Sessions"
+  identifier = "sessions"
+  weight = 2
 
-
+[[menu.main]]
+  name = "2026"
+  parent = "sessions"
+  url = "/sessions/2026"
+  weight = 30
+[[menu.main]]
+  name = "2025"
+  parent = "sessions"
+  url = "/sessions/2025"
+  weight = 40
+[[menu.main]]
+  name = "2024"
+  parent = "sessions"
+  url = "/sessions/2024"
+  weight = 50
+[[menu.main]]
+  name = "2023"
+  parent = "sessions"
+  url = "/sessions/2023"
+  weight = 60
 
   #[[menu.main]]
   #  identifier = "sponsor"
@@ -115,10 +134,6 @@ link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
     name = "Join us!"
     url = "https://www.linkedin.com/company/osa-con/"
     icon = "fab fa-linkedin-in"
-
-[[params.links.footer_resources]] 
-    name = "Team"
-    url = "/team"
 
 [[params.links.footer_resources]]
     name = "Code of Conduct"
