@@ -151,9 +151,9 @@ section.blog {
 
 .blog-caption {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 a .blog-caption {
@@ -161,6 +161,8 @@ a .blog-caption {
 	font-weight: 400;
 	background-color: rgba(0,0,0,0.6);
 	font-size: 1.2em;
+	padding: 10px;
+	backdrop-filter: blur(5px);
 }
 
 .blog article {

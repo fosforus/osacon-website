@@ -20,16 +20,16 @@ This year’s conference focuses on what’s actually changing in data systems: 
 
 If you’re invested in the evolution of open source analytics in the AI era, this is a conversation worth being part of.
 
-<div class="row mt-5">
+<div class="row mt-5 gx-5">
   <div class="col-12 col-md-6">
 
 ### What to Expect
 * A full day of in-depth technical sessions and real-world architecture discussions
-* Talks from engineers building and running analytics platforms in production
-* Exploration of new AI-driven analytics use cases and broader advances in data technology
-* Practical evaluations of AI models and agent-based tooling in analytics workflows
-* Roadmap updates from maintainers of key open-source analytics projects
-* Guidance on building scalable, efficient, and cost-aware data systems
+* Talks from engineers building and running analytics platforms in production
+* Exploration of new AI-driven analytics use cases and broader advances in data technology
+* Practical evaluations of AI models and agent-based tooling in analytics workflows
+* Roadmap updates from maintainers of key open-source analytics projects
+* Guidance on building scalable, efficient, and cost-aware data systems
 * Opportunities to connect with engineers, architects, and open-source contributors
   </div>
 <div class="col-12 col-md-6">
@@ -38,7 +38,7 @@ If you’re invested in the evolution of open source analytics in the AI era, th
 * Data engineers and analytics engineers
 * Platform engineers working on data infrastructure
 * Architects and technical decision-makers designing analytics systems
-* Anyone interested in the intersection of analytics, AI, and modern data platforms
+* Anyone interested in the intersection of analytics, AI, and modern data platforms
 
 ### Will this event be streamed?
 Yes. A livestream option will be available for those who can’t attend in person. You can pre-register for the in-person edition and online edition [here](https://luma.com/eis7567t?utm_source=osaconblogannouncement).

@@ -4,18 +4,20 @@
 }
 
 .main-nav {
-  background-color: $white;
+  background-color: #273449;
 }
 
 
 .main-nav {
   padding: 1em;
-  transition: all .7s linear;
+  transition: all .3s linear;
 
   .nav-link {
-    font-size: 26px;
+    font-size: 20px;
     padding: 0 !important;
     margin: 0 20px;
+    color: $white;
+    opacity: 0.85;
 
     @media (max-width: 992px) {
       margin-bottom: 6px;
@@ -23,7 +25,8 @@
     }
   
     &:hover {
-      color: $black-lighter;
+      color: $white;
+      opacity: 1;
     }
   
   }
@@ -93,11 +96,11 @@
   color: white;
   /* background: linear-gradient(60deg, rgba(24,157,207,1) 0%, rgba(16,116,230,1) 80%); */
 
-  background-color: #2E51F8;
-  /* URL-encoded inline SVG pattern */
+  background-color: #2e51f882;
+  /* URL-encoded inline SVG pattern 
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"  width="86.6" height="50" viewBox="0 0 86.6 50"><g fill="none" stroke="%230F3ADB" stroke-width="0.5"><path d="M43.3 0 L86.6 25 L43.3 50 L0 25 Z"/></g></svg>');
   background-size: 86.6px 50px;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 .error {

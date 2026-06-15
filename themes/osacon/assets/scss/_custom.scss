@@ -435,9 +435,10 @@ section.featured-content {
 
 section.featured-projects {
 	background-color: #e9ecf0;
-	padding:10px 0;
 	align-content: center; 
 	align-items: center; 
+	border-top: 4px solid $orange_light;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.3)
 }
   
 section.blog {

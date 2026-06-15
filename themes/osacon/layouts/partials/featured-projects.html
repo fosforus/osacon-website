@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data }}
 
 {{ with $data.projects }}
-<section class="section featured-projects">
+<section class="section featured-projects py-4 px-sm-5">
   <div class="d-flex justify-content-around flex-wrap">
     {{ range .projects }}
       <div class="project-logo"><img src="{{.image}}" alt="{{.name}}"></div>

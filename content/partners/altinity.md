@@ -2,7 +2,7 @@
 title: "Altinity"
 level: "platinum"
 images:
- - /images/partners/altinity-logo.svg
+ - /images/altinity-logo-white.svg
 webUrl: "https://www.altinity.com"
 weight: 1
 

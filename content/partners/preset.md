@@ -2,7 +2,7 @@
 title: "Preset"
 level: "platinum"
 images:
- - "/images/partners/preset-logo.png"
+ - "/images/preset-logo-white.svg"
 webUrl: "https://preset.io/"
 weight: 2
 
