@@ -8,6 +8,7 @@ RemovePathAccents = true
 DefaultContentLanguage = "en"
 
 theme = "osacon"
+relativeURLs = true
 
 [markup]
   [markup.goldmark]
