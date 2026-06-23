@@ -12,7 +12,7 @@ theme = "osacon"
 relativeURLs = true
 
 [security]
-  allowContent = ['^text/html$']
+  allowContent = ['.*']
 
 [markup]
   [markup.goldmark]
