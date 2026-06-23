@@ -11,6 +11,9 @@ DefaultContentLanguage = "en"
 theme = "osacon"
 relativeURLs = true
 
+[security]
+  allowContent = ['^text/html$']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
