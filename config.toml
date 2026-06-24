@@ -94,11 +94,14 @@ speaker = "speakers"
 
 [params]
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
-logo = "/images/osacon2026-logo-light.svg"
+logo = "/images/osacon2026-logo.svg"
 home = "Home"
 privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
 live_link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
+registerURL = "https://luma.com/eis7567t"
+# <a href="{{ .Site.Params.registerURL }}">Register Now</a>
+subscribeURL = "http://subscribepage.io/7rOdqZ"
 
 # First one is picked as the Twitter card image if not set on page.
 images = ["/images/card-osacon-2025.jpg"]
