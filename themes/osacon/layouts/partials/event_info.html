@@ -4,15 +4,17 @@
   <a id="event-info"></a>
   <div class="container">
     <div class="row">
-        <div class="text-center col-12"><h2>Why attend OSA CON?</h2></div>
+      <div class="text-center col-12">
+        <h2>Why attend OSA CON?</h2>
+      </div>
     </div>
     <div class="row">
       {{ range .why_cards }}
-      <div class="col-12 col-md-4">
-        <div class="card mb-3 h-100">
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card mb-2 h-100">
           <div class="row g-0">
             <div class="col-md-3 p-3 pe-0 text-center">
-              <img src="/images/icon-users-blue-circle.svg" class="card-icon" alt="...">
+              <img src="/images/{{ .icon }}" class="card-icon" alt="icon">
             </div>
             <div class="col-md-9">
               <div class="card-body text-center text-md-start">
@@ -22,9 +24,48 @@
             </div>
           </div>
         </div>
+      </div>
+      {{ end }}
+      <div class="row pt-4">
+        <div class="text-center col-12">
+          <h2>Who is OSA CON for?</h2>
+        </div>
+      </div>
+      <div class="row">
+        {{ range .who_cards }}
+        <div class="col mb-3">
+          <div class="card mb-1 h-100 text-center">
+            <img src="/images/{{ .icon }}" class="card-icon-sm align-self-center pt-3" alt="icon">
+            <div class="card-body text-center ">
+              <h4 class="card-title h4">{{ .title }}</h4>
+              <p class="card-text">{{ .text }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
     </div>
-    {{ end }}
-    <hr class="section-divider">
+    <div class="row pt-4">
+      <div class="col-12 col-md-6">
+        <h3>Topics You’ll Learn About</h3>
+        <div class="row g-2  ">
+                  {{ range .topics_cards }}
+        <div class="col mb-0">
+          <div class="card  h-100 text-center">
+            <img src="/images/{{ .icon }}" class="card-icon-sm align-self-center pt-3" alt="icon">
+            <div class="card-body text-center ">
+              <h4 class="card-title h4">{{ .title }}</h4>
+              <p class="card-text">{{ .text }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        </div>
+        <div class="row text-center my-2">
+      <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem" >See past sessions <i class="fa fa-arrow-right"></i></a>
+    </div>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

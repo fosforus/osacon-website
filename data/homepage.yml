@@ -21,9 +21,45 @@ event_info:
     - title: Learn from builders
       text: Hear from engineers building and running analytics platforms in production
       icon: icon-learn-blue-circle.svg
+
     - title: Discover the modern data stack
       text: Explore the technologies transforming data infrastructure - from ClickHouse® and Superset to Iceberg, Airflow, Kafka, and more.
       icon: icon-stack-blue-circle.svg
+
     - title: Meet the community
       text: Connect with maintainers, architects, engineering leaders, and contributors from around the world.
       icon: icon-users-blue-circle.svg
+
+  who_cards:
+    - title: Data Engineers
+      icon: icon-db-line.svg
+
+    - title: Analytics Engineers
+      icon: icon-barchart-line.svg
+
+    - title: Software Developers
+      icon: icon-code-line.svg
+
+    - title: AI Infrastructure Teams
+      icon: icon-brain-line.svg
+
+    - title: Open Source Maintainers
+      icon: icon-users-line.svg
+
+  topics_cards:
+    - title: AI and Analytics in Production
+      icon: icon-brain-line.svg
+    - title: Data Storage and Query
+      icon: icon-db-line.svg
+    - title: Visualization Technologies
+      icon: icon-eye-line.svg
+    - title: Open Source Community
+      icon: icon-users-line.svg
+    - title: Analytic and AI Infrastructure
+      icon: icon-barchart-line.svg
+    - title: Security, Privacy, and Governance
+      icon: icon-secure-line.svg
+    - title: Development with AI
+      icon: icon-code-line.svg
+    - title: Cool Projects and Apps
+      icon: icon-robot-line.svg

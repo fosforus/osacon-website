@@ -126,9 +126,7 @@ section.swag p {
 	}
 }
 
-.event-info h2 {
-	font-size: 40px;
-}
+
 
 
 .statistics-block {
@@ -162,21 +160,6 @@ section.swag p {
 	margin-top: 4px;
 }
 
-.event-info a {
-	color: $primary-color;
-	text-transform: uppercase;
-	&:hover {
-		color: $black-lighter;
-	}
-}
-
-.event-info .btn-outline-primary>a {
-	color: $primary-color;
-	text-transform: uppercase;
-	&:hover {
-		color: white !important;
-	}
-}
 
 .list-content {
 	margin-bottom: 1.6em;
@@ -474,6 +457,14 @@ section.featured-projects {
 	height:auto;
 }
 
+.card-icon-sm {
+	width: 100%;
+	height:auto;
+	max-width: 50px;
+	max-height: 50px;
+	object-fit: scale-down;
+	object-position: center;
+}
 
 section.blog {
 	padding-bottom: 75px;
