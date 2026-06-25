@@ -17,3 +17,13 @@ event_info:
 
     - number : "2,500+"
       label : "participants"
+  why_cards:
+    - title: Learn from builders
+      text: Hear from engineers building and running analytics platforms in production
+      icon: icon-learn-blue-circle.svg
+    - title: Discover the modern data stack
+      text: Explore the technologies transforming data infrastructure - from ClickHouse® and Superset to Iceberg, Airflow, Kafka, and more.
+      icon: icon-stack-blue-circle.svg
+    - title: Meet the community
+      text: Connect with maintainers, architects, engineering leaders, and contributors from around the world.
+      icon: icon-users-blue-circle.svg

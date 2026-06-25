@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Group_4" data-name="Group 4" transform="translate(-1259 -118)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1259 118)" fill="#0f3adb" stroke="#707070" stroke-width="1">
+      <circle cx="100" cy="100" r="100" stroke="none"/>
+      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    </g>
+    <path id="Icon_metro-stack" data-name="Icon metro-stack" d="M141.167,38.505,71.869,3.856,2.571,38.505l69.3,34.649Zm-69.3-23.148,46.3,23.148-46.3,23.148-46.3-23.148Zm55.417,42.195,13.881,6.94-69.3,34.649L2.571,64.492l13.881-6.94L71.869,85.26Zm0,25.987,13.881,6.94-69.3,34.649L2.571,90.478l13.881-6.94,55.417,27.709Z" transform="translate(1287.429 153.508)" fill="#fff"/>
+  </g>
+</svg>

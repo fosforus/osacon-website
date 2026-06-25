@@ -19,7 +19,7 @@ projects:
       image: /images/projects/flink.png  
 
     - name: Grafana
-      image: /images/projects/grafana.svg  
+      image: /images/projects/grafana-logo-wide.svg  
 
     - name: Iceberg
       image: /images/projects/iceberg.svg  

@@ -189,15 +189,6 @@ section.swag p {
 	visibility: hidden;
 }
 
-.card h3,
-.card h6 {
-	font-weight: 400;
-}
-
-.card h3 {
-	font-size: 20px;
-}
-
 .office-hours td {
 	padding: 6px 15px;
 }
@@ -447,24 +438,24 @@ section.featured-projects {
 
 .logo-slider .slide-track {
   display: flex;
-  animation: scroll 30s linear infinite; /* Adjust time for speed */
+  animation: scroll 45s linear infinite; /* Adjust time for speed */
 }
 
 .logo-slider .slide {
-  width: 160px; /* Adjust based on your logo width */
+  width: 160px; 
   flex-shrink: 0;
 }
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(calc(-200px * 6)); } /* Adjust -200px and 6 based on slide width and count */
+  100% { transform: translateX(calc(-150px * 19)); } /* Adjust based on slide width and count */
 }
 
 .project-logo {
   display: flex;
-  width: 160px;
-  height: 40px;
-  margin: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 10px 20px;
   align-items: center;
   align-content: center; 
   align-self: center;
@@ -473,10 +464,15 @@ section.featured-projects {
 }
 
 .project-logo img {
-	max-width: 100%;
+	max-width: 150px;
 	max-height: 100%;
 }
 
+.card-icon {
+	width: 100%;
+	max-width: 70px;
+	height:auto;
+}
 
 
 section.blog {

@@ -1,29 +1,29 @@
 {{ $data := index .Site.Data }}
-
 {{ with $data.homepage.event_info }}
 <section class="section event-info mt-4">
   <a id="event-info"></a>
   <div class="container">
-    <div class="content text-center text-sm-start">
-      <div>
-        <h2>{{ .title }}</h2>
-        <p style="line-height:150%">OSA Con is a community-driven conference for engineers and architects building modern analytics and AI systems. Organized by the Open Source Analytics (OSA) community, the conference brings together practitioners, project maintainers, and data leaders to share real-world architectures, lessons from production systems, and updates from the open-source tools powering today’s analytics and AI platforms.</p>
-
-        <button id="button-what-is1" type="button" class="btn btn-light btn-rounded btn-outline-primary my-2"><a target="_blank" href="{{ .Site.Params.registerURL }}">Pre-register</a></button>
-        <button id="button-what-is2" type="button" class="btn btn-light btn-rounded btn-outline-primary my-2"><a target="_blank" href="{{ .Site.Params.subscribeURL }}">Sign up for updates</a></button>
-
-
-      </div>
-
-      <!--<div class="statistics-block">
-        {{ range .features }}
-          <div class="item">
-            <div class="numbers">{{ .number }}</div>
-            <div class="label">{{ .label }}</div>
+    <div class="row">
+        <div class="text-center col-12"><h2>Why attend OSA CON?</h2></div>
+    </div>
+    <div class="row">
+      {{ range .why_cards }}
+      <div class="col-12 col-md-4">
+        <div class="card mb-3 h-100">
+          <div class="row g-0">
+            <div class="col-md-3 p-3 pe-0 text-center">
+              <img src="/images/icon-users-blue-circle.svg" class="card-icon" alt="...">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body text-center text-md-start">
+                <h4 class="card-title h4">{{ .title }}</h4>
+                <p class="card-text">{{ .text }}</p>
+              </div>
+            </div>
           </div>
-        {{ end }}
-      </div>-->
-    </div>    
+        </div>
+    </div>
+    {{ end }}
     <hr class="section-divider">
   </div>
 </section>
