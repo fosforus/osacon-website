@@ -1,11 +1,22 @@
 {{ $data := index .Site.Data }}
 
-{{ with $data.projects }}
-<section class="section featured-projects py-4 px-sm-5">
-  <div class="d-flex justify-content-around flex-wrap">
-    {{ range .projects }}
-      <div class="project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+<section class="featured-projects">
+<div class="logo-slider">
+  <div class="slide-track">
+    <!-- Repeat your logo slides twice for seamless looping -->
+    {{ with $data.projects }}
+      {{ range .projects }}
+        <div class="slide project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+      {{ end }}
+      {{ range .projects }}
+        <div class="slide project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+      {{ end }}
     {{ end }}
-  </div>  
+    <div class="slide"><img src="logo1.png" alt="Logo"></div>
+    <div class="slide"><img src="logo2.png" alt="Logo"></div>
+    <!-- ... more slides ... -->
+    <div class="slide"><img src="logo1.png" alt="Logo"></div>
+    <div class="slide"><img src="logo2.png" alt="Logo"></div>
+  </div>
+</div>
 </section>
-{{ end }}
