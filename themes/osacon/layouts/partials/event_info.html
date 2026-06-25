@@ -49,7 +49,7 @@
       <div class="col-12 col-md-6">
         <h3>Topics You’ll Learn About</h3>
         <div class="row g-2  ">
-                  {{ range .topics_cards }}
+        {{ range .topics_cards }}
         <div class="col mb-0">
           <div class="card  h-100 text-center">
             <img src="/images/{{ .icon }}" class="card-icon-sm align-self-center pt-3" alt="icon">
@@ -62,8 +62,23 @@
         {{ end }}
         </div>
         <div class="row text-center my-2">
-      <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem" >See past sessions <i class="fa fa-arrow-right"></i></a>
-    </div>
+        <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem" >See past sessions <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3>Participating Companies</h3>
+        <p>Engineering leaders from these organizations will share practical experiences building analytics and AI systems.</p>
+        
+        <div class="row g-2">
+          {{ range .participating_companies }}
+          <div class="col-sm-6 mb-1">
+                  <div class="card logo-card h-100 text-center p-2">
+                    <img src="/images/partners/{{ .logo }}" class="align-self-center" alt="{{ .name }}">
+                  </div>
+                </div>
+          {{ end }}
+        </div>
+        <p><b>Speakers and more participating companies are coming soon.</b></p>
       </div>
     </div>
   </div>

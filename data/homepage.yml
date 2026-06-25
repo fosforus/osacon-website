@@ -63,3 +63,15 @@ event_info:
       icon: icon-code-line.svg
     - title: Cool Projects and Apps
       icon: icon-robot-line.svg
+
+  participating_companies:
+    - name: Altinity
+      logo: altinity-logo.svg
+    - name: Preset
+      logo: preset-logo.png
+    - name: Fivetran
+      logo: fivetran.svg
+    - name: Gamebeast
+      logo: gamebeast.png
+    - name: LanceDB
+      logo: dark-lancedb-logo.svg
