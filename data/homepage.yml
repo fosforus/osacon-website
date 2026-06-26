@@ -3,20 +3,28 @@ event_info:
   enable : true
   title : "What is OSA CON?"
   description : "OSA Con is a community-driven conference for engineers and architects building modern analytics and AI systems. Organized by the Open Source Analytics (OSA) community, the conference brings together practitioners, project maintainers, and data leaders to share real-world architectures, lessons from production systems, and updates from the open-source tools powering today’s analytics and AI platforms."
-  cta_text: "Sign up for updates"
-  cta_link: "/sing-up-for-updates"
-  features: 
-    - number : "2"
-      label : "Days"
 
-    - number : "Free!"
-      label : "Free and online event"
+  features_extended:
+    - number: 5+
+      title: Years of Community
+      text: Building connections across the open-source analytics ecosystem.
+      icon: far fa-calendar
 
-    - number : "40+"
-      label : "Sessions"
+    - number: 5,000+
+      title: Engineers & Analysts
+      text: A global audience of practitioners and builders.
+      icon: fa fa-users
 
-    - number : "2,500+"
-      label : "participants"
+    - number: 45+
+      title: Countries Represented
+      text: A worldwide community of data professionals.
+      icon: fa fa-globe
+
+    - number: 300+
+      title: Technical Talks
+      text: Practical content from experts and practitioners.
+      icon: fa fa-microphone
+
   why_cards:
     - title: Learn from builders
       text: Hear from engineers building and running analytics platforms in production
@@ -75,3 +83,8 @@ event_info:
       logo: gamebeast.png
     - name: LanceDB
       logo: dark-lancedb-logo.svg
+
+  attendee_quotes:
+    - text: Great event with very relevant topics and knowledgeable speakers. I really enjoyed the practical insights shared.
+    - text: Excellent sessions on OPEN SOURCE and DATA QUALITY 
+    - text: Well organized, easy to handle, amazing event. Thanks for keeping it online.

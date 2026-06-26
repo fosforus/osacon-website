@@ -87,7 +87,7 @@
 <section>
   <div class="container">
     <div class="row g-5">
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <h3>The Community Behind OSA Con</h3>
         <p>OSA Con is built by the Open Source Analytics Community.
         Throughout the year, our speakers, attendees, sponsors, and organizers connect through meetups, slack, and technical events around the world.</p>
@@ -95,7 +95,7 @@
       <h4>Join the conversation</h4>
       <a href="{{ $siteParams.slackURL }}" target="_blank" class="btn btn-outline-primary rounded"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="width:1.75rem;vertical-align:-35%;"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M190.1 379.1C190.1 405 168.9 426.2 143 426.2C117.1 426.2 96 405 96 379.1C96 353.2 117.2 332 143.1 332L190.2 332L190.2 379.1zM213.8 379.1C213.8 353.2 235 332 260.9 332C286.8 332 308 353.2 308 379.1L308 496.9C308 522.8 286.8 544 260.9 544C235 544 213.8 522.8 213.8 496.9L213.8 379.1zM260.9 190.1C235 190.1 213.8 168.9 213.8 143C213.8 117.1 235 96 260.9 96C286.8 96 308 117.2 308 143.1L308 190.2L260.9 190.2zM260.9 213.8C286.8 213.8 308 235 308 260.9C308 286.8 286.8 308 260.9 308L143.1 308C117.2 308 96 286.8 96 260.9C96 235 117.2 213.8 143.1 213.8L260.9 213.8zM449.9 260.9C449.9 235 471.1 213.8 497 213.8C522.9 213.8 544 235 544 260.9C544 286.8 522.8 308 496.9 308L449.8 308L449.8 260.9zM426.2 260.9C426.2 286.8 405 308 379.1 308C353.2 308 332 286.8 332 260.9L332 143.1C332 117.2 353.2 96 379.1 96C405 96 426.2 117.2 426.2 143.1L426.2 260.9zM379.1 449.9C405 449.9 426.2 471.1 426.2 497C426.2 522.9 405 544 379.1 544C353.2 544 332 522.8 332 496.9L332 449.8L379.1 449.8zM379.1 426.2C353.2 426.2 332 405 332 379.1C332 353.2 353.2 332 379.1 332L496.9 332C522.8 332 544 353.2 544 379.1C544 405 522.8 426.2 496.9 426.2L379.1 426.2z" fill="currentColor"/></svg> Slack Community</a>
       </div>
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-6 col-lg-8">
         <div id="carouselFromEvents" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselFromEvents" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -122,4 +122,56 @@
     </div>
   </div>
 </section>
+<section>
+<div class="container mt-4">
+  <div class="row rounded bg-lightblue pt-4 pb-2">
+    {{ range .features_extended }}
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="row">
+        <div class="col-12 col-sm-3 text-center text-sm-end"><div class="feature-extended-icon"><i class="{{ .icon }}"></i></div></div>
+        <div class="col-12 col-sm-9 text-center text-sm-start">
+          <h4><span class="h3">{{ .number }}</span><br /> {{ .title }}</h4>
+          <p>{{ .text }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+</section>
+<section>
+  <div class="container mt-4">
+    <div class="row g-5">
+      <div class="col-12 col-md-4">
+        <h3>What Attendees Say about our meetups and past OSA Cons</h3>
+        <div class="row">
+          {{ range .attendee_quotes }}
+          <div class="col mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="text-trueblue"><i class="fa fa-quote-left"></i></div>
+                <p class="card-text">{{ .text }}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <h3>Partner With the Community</h3>
+        <p>Support the open-source analytics ecosystem and connect with thousands of data and analytics professionals.</p>
+        <h3>Why Sponsor?</h3>
+<ul class="checklist-blue">
+<li>Reach senior engineers and technical <span style="white-space:nowrap">decision-makers</span></li>
+<li>Showcase your expertise and open-source contributions</li>
+<li>Build relationships with the analytics community</li>
+<li>Support the growth of open-source analytics and AI</li>
+</ul>
+<a href="" class="btn btn-primary rounded d-block" > <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
 {{ end }}

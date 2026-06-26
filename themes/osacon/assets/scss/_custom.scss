@@ -6,8 +6,6 @@
 	margin-top: 2em;
 }
 
-
-
 section.faq img,
 section.coc img {
 	max-width: 100%;
@@ -480,6 +478,33 @@ section.featured-projects {
 	max-height: 100%;
 }
 
+.feature-extended-icon {
+	font-size: 2.5rem;
+	display:block;
+  margin: 10px auto;
+  color: $trueblue;
+}
+
 section.blog {
 	padding-bottom: 75px;
+}
+
+ul.checklist-blue {
+  list-style: none; 
+}
+
+ul.checklist-blue li{
+	position: relative;
+	line-height: 1.4;
+	margin-bottom: 0.5rem;
+}
+
+ul.checklist-blue li::before {
+  content: "✔";
+  color: $trueblue;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position:absolute;
+  left: -1.5rem;
+  top: -0.2rem;
 }
