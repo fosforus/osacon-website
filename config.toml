@@ -100,7 +100,7 @@ privacy_policy = "/privacy"
 google_analytics = "G-GLFP2KJWR4"
 live_link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 registerURL = "https://luma.com/eis7567t"
-# <a href="{{ .Site.Params.registerURL }}">Register Now</a>
+# <a href="{{ .Site.Params.regist<div></div>erURL }}">Register Now</a>
 subscribeURL = "https://subscribepage.io/7rOdqZ"
 slackURL = "https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A"
 
@@ -130,17 +130,17 @@ link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
     icon = "fa fa-envelope"
 
 [[params.links.social]]
-    name = "Join us!"
+    name = "Slack Community"
     url = "https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A"
     icon = "fab fa-slack"
 
 [[params.links.social]]
-    name = "Whatch us!"
+    name = "YouTube"
     url = "https://www.youtube.com/@OpenSourceAnalyticsConference"
     icon = "fab fa-youtube"
 
 [[params.links.social]]
-    name = "Join us!"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/company/osa-con/"
     icon = "fab fa-linkedin-in"
 
