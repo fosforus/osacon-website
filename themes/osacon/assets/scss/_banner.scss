@@ -29,7 +29,9 @@
   color: white;
 
 }
-
+section.hero-alt {
+  margin-bottom: 0;
+}
 
 #button-hero1, #button-hero2 {
   font-size: 1.2em;
@@ -42,7 +44,7 @@ section.hero-alt {
   position: relative;
 
   width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
 
   /* Will not allow the video to overflow the 
   container */

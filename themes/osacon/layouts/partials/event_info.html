@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data }}
 {{ $siteParams := .Site.Params }}
 {{ with $data.homepage.event_info }}
-<section class="section event-info mt-4">
+<section class="event-info mt-4">
   <a id="event-info"></a>
   <div class="container">
     <div class="row">
@@ -28,7 +28,7 @@
       </div>
       {{ end }}
     </div>
-    <div class="row text-center bg-lightblue rounded-4 p-3 pt-4 mx-auto">
+    <div class="row text-center bg-lightblue rounded-4 p-3 pt-4 mx-auto my-5">
       <div class="col ">
         <h2>Who is OSA Con for?</h2>
         <div class="row mx-auto">
@@ -125,7 +125,7 @@
   </div>
 </section>
 <section>
-  <div class="container mt-4">
+  <div class="container my-5">
     <div class="row rounded-4 bg-lightblue py-4 features-extended gx-sm-5">
       {{ range .features_extended }}
       <div class="col-12 col-sm-6 col-md-3">
