@@ -45,10 +45,31 @@
           {{ end }}
         </div>
       </div>
+      <div class="col-12 col-md-4 bg-lightblue rounded-4 text-center text-sm-start">
+        <h2>Audience Snapshot</h2>
+        <div class="row p-3">
+          <div class="col-12 col-sm-3 text-center pb-4"><img src="images/icon-users-ltgray-circle.svg" class="card-icon" alt="icon" /></div>
+          <div class="col">
+            <h4><span class="h3">70%+</span><br />
+              Engineering & Technical Roles</h4>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-12 col-sm-3 text-center pb-4"><img src="images/icon-globe-ltgray-circle.svg" class="card-icon" alt="icon" /></div>
+          <div class="col">
+            <h4><span class="h3">Global Reach</span><br />
+              Organizations ranging from startups to Fortune 500 companies</h4>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row pt-4 g-sm-5">
-      <div class="col-12 col-md-6 text-center text-md-start pb-4 pb-sm-0">
-        <h3>Topics You’ll Learn About</h3>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row g-sm-5">
+      <div class="col-12 text-center pb-4 pb-sm-0">
+        <h2>Topics You’ll Learn About</h2>
         <div class="row g-2">
         {{ range .topics_cards }}
         <div class="col mb-0">
@@ -66,11 +87,17 @@
         <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem" >See past sessions <i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
-      <div class="col-12 col-md-6 text-center text-md-start">
-        <h3>Participating Companies</h3>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Participating Companies</h2>
         <p>Engineering leaders from these organizations will share practical experiences building analytics and AI systems.</p>
         
-        <div class="row g-2">
+        <div class="row d-block d-sm-flex justify-items-center justify-content-center">
           {{ range .participating_companies }}
           <div class="col-sm-6 mb-1">
                   <div class="card logo-card h-100 text-center p-2">
@@ -86,7 +113,7 @@
 </section>
 <section>
   <div class="container">
-    <div class="row g-sm-5">
+    <div class="row g-md-5">
       <div class="col-12 col-md-6 col-lg-4 pb-4">
         <h3>The Community Behind OSA Con</h3>
         <p>OSA Con is built by the Open Source Analytics Community.
@@ -98,29 +125,11 @@
             <path d="M190.1 379.1C190.1 405 168.9 426.2 143 426.2C117.1 426.2 96 405 96 379.1C96 353.2 117.2 332 143.1 332L190.2 332L190.2 379.1zM213.8 379.1C213.8 353.2 235 332 260.9 332C286.8 332 308 353.2 308 379.1L308 496.9C308 522.8 286.8 544 260.9 544C235 544 213.8 522.8 213.8 496.9L213.8 379.1zM260.9 190.1C235 190.1 213.8 168.9 213.8 143C213.8 117.1 235 96 260.9 96C286.8 96 308 117.2 308 143.1L308 190.2L260.9 190.2zM260.9 213.8C286.8 213.8 308 235 308 260.9C308 286.8 286.8 308 260.9 308L143.1 308C117.2 308 96 286.8 96 260.9C96 235 117.2 213.8 143.1 213.8L260.9 213.8zM449.9 260.9C449.9 235 471.1 213.8 497 213.8C522.9 213.8 544 235 544 260.9C544 286.8 522.8 308 496.9 308L449.8 308L449.8 260.9zM426.2 260.9C426.2 286.8 405 308 379.1 308C353.2 308 332 286.8 332 260.9L332 143.1C332 117.2 353.2 96 379.1 96C405 96 426.2 117.2 426.2 143.1L426.2 260.9zM379.1 449.9C405 449.9 426.2 471.1 426.2 497C426.2 522.9 405 544 379.1 544C353.2 544 332 522.8 332 496.9L332 449.8L379.1 449.8zM379.1 426.2C353.2 426.2 332 405 332 379.1C332 353.2 353.2 332 379.1 332L496.9 332C522.8 332 544 353.2 544 379.1C544 405 522.8 426.2 496.9 426.2L379.1 426.2z" fill="currentColor" /></svg> Slack Community</a>
       </div>
       <div class="col-12 col-md-6 col-lg-8">
-        <div id="carouselFromEvents" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselFromEvents" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselFromEvents" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselFromEvents" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselFromEvents" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-inner rounded">
-            <div class="carousel-item active">
-              <img src="images/SF-meetup-copy.webp" class="d-block w-100" alt="event image">
-            </div>
-            <div class="carousel-item">
-              <img src="images/NYC-meetup-copy.webp" class="d-block w-100" alt="event image">
-            </div>
-            <div class="carousel-item">
-              <img src="images/FOSDEM-meetup-copy.webp" class="d-block w-100" alt="event image">
-            </div>
-            <div class="carousel-item">
-              <img src="images/Chicago-meetup-copy.webp" class="d-block w-100" alt="event image">
-            </div>
-          </div>
+        <div class="row g-2">
+          {{ range .event_photos }}
+          <div class="col-12 col-sm-6 col-lg-4"><img src="images/{{ .img }}" alt="past event photo" class="rounded w-100" /></div>
+          {{ end }}
         </div>
-      </div>
     </div>
   </div>
 </section>
@@ -144,22 +153,27 @@
 <section>
   <div class="container mt-4">
     <div class="row g-sm-5">
-      <div class="col-12 col-md-4 ">
-        <h3>What Attendees Say about our meetups and past OSA Cons</h3>
+      <div class="col-12 col-md-6 ">
+        <h3>What Attendees Say about our meetups and past OSA Con Events</h3>
         <div class="row">
-          {{ range .attendee_quotes }}
-          <div class="col mb-3">
-            <div class="card h-100">
-              <div class="card-body">
-                <div class="text-trueblue"><i class="fa fa-quote-left"></i></div>
-                <p class="card-text">{{ .text }}</p>
+          <div class="col">
+        <div id="carouselOfQuotes" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner rounded">
+          {{ range $index, $element := .attendee_quotes }}
+          <div class="carousel-item {{ if eq $index 0 }}active{{ end }} position-relative">
+            <div class="card testimonial-card p-4">
+              <div class="card-body h-100">
+                <div class="card-text"><div class="text-trueblue"><i class="fa fa-quote-left"></i></div><p>{{ $element.text }}</p></div>
               </div>
             </div>
           </div>
           {{ end }}
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 pb-3 pb-sm-0">
+        </div>
+      </div>
+      <div class="col-12 col-md-6 pb-3 pb-sm-0">
         <h3>Partner With the Community</h3>
         <p>Support the open-source analytics ecosystem and connect with thousands of data and analytics professionals.</p>
         <h3>Why Sponsor?</h3>
@@ -169,24 +183,7 @@
           <li>Build relationships with the analytics community</li>
           <li>Support the growth of open-source analytics and AI</li>
         </ul>
-        <a href="" class="btn btn-primary rounded d-block"> <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
-      </div>
-      <div class="col-12 col-md-4 bg-lightblue p-4 rounded-4 text-center text-sm-start">
-        <h3>Audience Snapshot</h3>
-        <div class="row p-3">
-          <div class="col-12 col-sm-3 text-center pb-4"><img src="images/icon-users-ltgray-circle.svg" class="card-icon" alt="icon" /></div>
-          <div class="col">
-            <h4><span class="h3">70%+</span><br />
-              Engineering & Technical Roles</h4>
-          </div>
-        </div>
-        <div class="row p-3">
-          <div class="col-12 col-sm-3 text-center pb-4"><img src="images/icon-globe-ltgray-circle.svg" class="card-icon" alt="icon" /></div>
-          <div class="col">
-            <h4><span class="h3">Global Reach</span><br />
-              Organizations ranging from startups to Fortune 500 companies</h4>
-          </div>
-        </div>
+        <a href="/files/OSA_Con_2026_Prospectus.pdf" class="btn btn-primary rounded d-block" target="_blank"> <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
       </div>
     </div>
   </div>

@@ -84,7 +84,15 @@ event_info:
     - name: LanceDB
       logo: dark-lancedb-logo.svg
 
+  event_photos:
+    - img: IMG_8309.webp
+    - img: IMG_8356.webp
+    - img: SF-meetup-copy.webp
+    - img: NYC-meetup-copy.webp
+    - img: FOSDEM-meetup-copy.webp
+    - img: Chicago-meetup-copy.webp
+
   attendee_quotes:
-    - text: Great event with very relevant topics and knowledgeable speakers. I really enjoyed the practical insights shared.
-    - text: Excellent sessions on OPEN SOURCE and DATA QUALITY 
+    - text: Great event with very relevant topics and knowledgeable speakers. I really enjoyed the practical insights shared.
+    - text: Excellent sessions on OPEN SOURCE and DATA QUALITY 
     - text: Well organized, easy to handle, amazing event. Thanks for keeping it online.

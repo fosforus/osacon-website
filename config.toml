@@ -102,7 +102,7 @@ live_link = "https://us.airmeet.com/e/69f1f9b0-2f11-11ef-82f4-1d5f1667121e"
 registerURL = "https://luma.com/eis7567t"
 # <a href="{{ .Site.Params.regist<div></div>erURL }}">Register Now</a>
 subscribeURL = "https://subscribepage.io/7rOdqZ"
-slackURL = "https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A"
+slackURL = "https://go.osacom.io/slack"
 
 # First one is picked as the Twitter card image if not set on page.
 images = ["/images/card-osacon-2025.jpg"]

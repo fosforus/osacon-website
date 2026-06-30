@@ -408,6 +408,19 @@ section.featured-projects {
 	align-content: center; 
 	align-items: center; 
 	border-bottom: 1px solid #e9ecf0;
+	position:relative
+}
+
+.prev-projects-header {
+	position:absolute;
+	left: 0;
+	right: 0;
+	text-align:center;
+	bottom: 100%;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight:500;
+  opacity: 0.8
 }
 
 .logo-slider {
@@ -486,14 +499,45 @@ section.featured-projects {
 	}
 }
 
-
-
 .feature-extended-icon {
 	font-size: 2.5rem;
 	display:block;
   margin: 10px auto;
   color: $trueblue;
 }
+
+.card.testimonial-card {
+	min-height: 14em;
+	justify-content: center;
+	background-color:$lightblue;
+
+	.card-body {
+		margin: auto;
+		padding-left: 2.2em;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		font-size: 150%;
+		line-height: 1.5;
+		font-style: italic;
+		font-family: Times, Serif;
+		
+		.card-text {
+			position:relative;
+
+			.text-trueblue {
+				position: absolute;
+				top: -0.45em;
+				left: -1.2em;
+				font-size: 200%;
+				opacity: 0.25;
+				line-height: 1;
+			}
+		}
+
+	}
+}
+
 
 section.blog {
 	padding-bottom: 75px;
