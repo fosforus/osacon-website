@@ -34,7 +34,7 @@ section.hero-alt {
 }
 
 #button-hero1, #button-hero2 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
 }
 
@@ -101,31 +101,7 @@ section.hero-alt {
   }
 
 
-  #button-hero1 { 
-    background-color: white;
-    border: solid $primary-color 1px;
-  } 
-  #button-hero1:hover {
-    background-color: $primary-color;
-    border-color: white;
-  }
-  #button-hero1:hover a, #button-hero1 a:hover {
-    color: white;
-  }
 
-  #button-hero2 { 
-    background-color: transparent;
-    border: solid white 1px;
-  } 
-  #button-hero2:hover {
-    background-color: $primary-color;
-  }
-  #button-hero2 a { 
-    color: white;
-  }
-  #button-hero2:hover a, #button-hero2 a:hover {
-    color: white;
-  }
   @media (max-width:768px) {
     padding-left: 0;
     text-align: center;

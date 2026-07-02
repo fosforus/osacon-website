@@ -4,13 +4,13 @@
   <h3 class="h4 prev-projects-header">Projects & Companies from Previous OSA Con Editions</h3>
 <div class="logo-slider">
   <div class="slide-track">
-    <!-- Repeat your logo slides twice for seamless looping -->
+    <!-- Repeat logo slides twice for seamless looping -->
     {{ with $data.projects }}
       {{ range .projects }}
-        <div class="slide project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+        <img src="{{.image}}" alt="{{.name}}">
       {{ end }}
       {{ range .projects }}
-        <div class="slide project-logo"><img src="{{.image}}" alt="{{.name}}"></div>
+        <img src="{{.image}}" alt="{{.name}}">
       {{ end }}
     {{ end }}
   </div>

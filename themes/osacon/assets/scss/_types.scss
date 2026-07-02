@@ -51,6 +51,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 20px;
   font-weight: 600;
+  letter-spacing: 0.08em;
 }
 
 
@@ -67,6 +68,9 @@ h6, .h6 {
   line-height: 35px;
 }
 
+.ls-wide {
+  letter-spacing: 0.08em;
+}
 
 .text-secondary{
   color: $secondary-color!important;
