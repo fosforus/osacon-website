@@ -110,7 +110,7 @@ start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
 [params.hero]
-text = "Join online or in San Francisco · Nov 2"
+text = "Join online or in San Francisco · Nov 2 · Free"
 
 [params.hero.cta1]
 text = "Become a speaker"
@@ -131,7 +131,7 @@ link = "https://us.airmeet.com/e/ddf49100-26c9-11f0-9913-db14c2def628"
 
 [[params.links.social]]
     name = "Slack Community"
-    url = "https://join.slack.com/t/osacommunityworkspace/shared_invite/zt-2j5oq8pa9-3z2STvxxRsrzhYkPOMwX4A"
+    url = "https://go.osacom.io/slack"
     icon = "fab fa-slack"
 
 [[params.links.social]]

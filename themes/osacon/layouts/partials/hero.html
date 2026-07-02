@@ -7,16 +7,22 @@
         <img src="/images/osacon2026-cubes.png" alt="OSA CON logo" class="img-fluid">      
       </div>
       <div class="event-meta mx-2 mx-md-0">
-        <div style="display:inline-block;background-color:#0f3ad8;padding:3px 5px 0;border-radius:4px;line-height:1.2;margin-bottom:7px;">Hybrid Event</div><br />
-        <h1 style="text-wrap: balance;color:#fff">The Anti-Hype Conference for Open Source Analytics and AI</h1>
-        <h3 class="mx-3 mx-sm-1 text-white">{{ .Site.Params.hero.text }}</h3>
-        <button id="button-hero1" type="button" class="btn rounded my-2"><a target="_blank" href="{{ .Site.Params.registerURL }}">Pre-register for free</a></button>
-        <button id="button-hero2" type="button" class="btn rounded btn-outline-primary my-2"><a target="_blank" href="{{ .Site.Params.subscribeURL }}">Sign up for updates</a></button>
+        <div style="color:#00c7d4;display:inline-block;background-color:#0f3ad8;padding:3px 5px;border-radius:4px;line-height:1.2;margin-bottom:7px;">Hybrid Event</div><br />
+        <h1 style="text-wrap: balance;color:#fff" class="mb-4">The Anti-Hype Conference for Open Source Analytics and AI</h1>
+        <h3 class="mx-3 mx-sm-1 text-white opacity-75 fs-5">{{ .Site.Params.hero.text }}</h3>
+        <div class="d-sm-flex" style="gap:16px;">
+            <div>
+                <button id="button-hero1" type="button" class="btn rounded my-2"><a target="_blank" href="{{ .Site.Params.registerURL }}">Register</a></button>
+            </div>
+            <div>
+                <button id="button-hero2" type="button" class="btn rounded btn-outline-primary my-2"><a target="_blank" href="{{ .Site.Params.subscribeURL }}">Sign up for updates</a></button>
+            </div>
+        </div>
         <div class="hero-meta">
-          <div><div class="hero-icon"><i class="far fa-calendar"></i></i></div><div><h3 class="text-white">5+</h3>Years of Community</div></div>
-          <div><div class="hero-icon"><i class="fa fa-users"></i></div><div><h3 class="text-white">5,000+</h3>Engineers & Analysts</div></div>
-          <div><div class="hero-icon"><i class="fa fa-microphone"></i></div><div><h3 class="text-white">300+</h3>Technical Talks</div></div>
-          <div><div class="hero-icon"><i class="fa fa-globe"></i></div><div><h3 class="text-white">45+</h3>Countries Represented</div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">5+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Years of Community</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">5,000+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Engineers & Analysts</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">300+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Technical Talks</div></div></div>
+          <div><div style="font-size:0.9rem"><h3 class="text-white">45+</h3><div style="opacity: 0.75; line-height: 1.2;font-weight: 400;">Countries Represented</div></div></div>
         </div>
       </div>  
     </div>

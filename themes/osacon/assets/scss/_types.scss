@@ -31,7 +31,7 @@ a {
 }
 
 h1, .h1 {
-  font-size: 42px;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
   font-weight: 500;
 }
 
