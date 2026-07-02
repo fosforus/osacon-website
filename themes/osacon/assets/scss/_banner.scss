@@ -44,7 +44,7 @@ section.hero-alt {
   position: relative;
 
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
 
   /* Will not allow the video to overflow the 
   container */
@@ -81,6 +81,7 @@ section.hero-alt {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 60px auto;
 }
 
 .hero-content .event-logo {
