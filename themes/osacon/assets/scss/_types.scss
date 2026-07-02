@@ -39,7 +39,7 @@ h1, .h1 {
 h2, .h2 {
   font-family: $heading-font;
   font-weight: 600;
-  font-size: 30px;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
   line-height: 1.3;
 }
 

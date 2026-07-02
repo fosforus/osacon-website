@@ -58,28 +58,27 @@
           </div>
         </div>
       </div>
-            </div>
-            </div>
-            </section>
-            <section>
-        <div class="container">
-          <div class="row g-sm-5">
-            <div class="col-12 text-center pb-4 pb-sm-0">
-        <h2>Topics You’ll Learn About</h2>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row g-sm-5">
+      <div class="col-12 text-center pb-4 pb-sm-0">
+        <p class="section-marker">Curriculum</p>
+        <h2 class="mb-5">Topics You’ll Learn About</h2>
         <div class="row g-2 flex-wrap">
-        {{ range .topics_cards }}
-        <div class="col mb-0">
-          <div class="card  h-100 text-center bg-white">
-            <img src="/images/{{ .icon }}" class="card-icon-sm align-self-center pt-3" alt="icon">
-            <div class="card-body text-center ">
-              <p class="card-title">{{ .title }}</p>
+          {{ range .topics_cards }}
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-0">
+            <div class="card h-100 text-center text-md-start bg-white flex-col flex-md-row p-3 align-items-center">
+              <img src="/images/{{ .icon }}" class="card-icon-sm mb-3 mt-1 mx-3" alt="icon">
+                <p class="card-title"><b>{{ .title }}</b></p>
             </div>
           </div>
+          {{ end }}
         </div>
-        {{ end }}
-        </div>
-        <div class="row text-center my-2">
-        <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem" >See past sessions <i class="fa fa-arrow-right"></i></a>
+        <div class="row text-center my-4">
+          <a href="/sessions/2025" style="font-weight:600;font-size:1.2rem">See past sessions <i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -90,18 +89,16 @@
     <div class="row">
       <div class="col-12 text-center">
         <h2>Participating Companies</h2>
-        <p>Engineering leaders from these organizations will share practical experiences building analytics and AI systems.</p>
+        <p style="max-width:600px;margin:1em auto 2em;">Engineering leaders from these organizations will share practical experiences building analytics and AI systems.</p>
         
-        <div class="row d-block d-sm-flex justify-items-center justify-content-center">
+        <div class="row d-block d-sm-flex justify-items-center align-items-center justify-content-center mb-4">
           {{ range .participating_companies }}
-          <div class="col-sm-6 mb-1">
-                  <div class="card logo-card h-100 text-center p-2">
-                    <img src="/images/partners/{{ .logo }}" class="align-self-center" alt="{{ .name }}">
-                  </div>
+          <div class="col-12 col-sm-2 mb-1 h-100">
+                    <img src="/images/partners/{{ .logo }}" class="partner-logo" alt="{{ .name }}">
                 </div>
           {{ end }}
         </div>
-        <p><b>Speakers and more participating companies are coming soon.</b></p>
+        <p><i>Speakers and more participating companies are coming soon.</i></p>
       </div>
     </div>
   </div>

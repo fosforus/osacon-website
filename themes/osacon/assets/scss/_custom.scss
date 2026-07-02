@@ -204,8 +204,9 @@ article.swag {
 	padding: 20px 0 40px;
 }
 
-#partners img {
+.partner-logo {
 	width: 100%;
+	max-width: 120px;
 }
 /* Add to calendar button */
 /* The button */
@@ -461,8 +462,8 @@ section.featured-projects {
 .card-icon-sm {
 	width: 100%;
 	height:auto;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 32px;
+	max-height: 32px;
 	object-fit: scale-down;
 	object-position: center;
 	transition: all 0.25s ease;
