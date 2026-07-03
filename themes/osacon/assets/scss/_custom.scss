@@ -455,8 +455,11 @@ section.featured-projects {
 
 
 .card-icon {
-	width: 55px;
+	width: 45px;
 	height:auto;
+	max-height: 45px;
+	object-fit: scale-down;
+	object-position: center;
 }
 
 .card-icon-sm {
@@ -544,19 +547,22 @@ ul.checklist-blue {
 ul.checklist-blue li{
 	position: relative;
 	line-height: 1.4;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.7rem;
 }
 
 ul.checklist-blue li::before {
-	display: inline-block;
-	width: 1.5rem; 
+	display: inline-flex;
+	border-radius: 5px;
+	justify-content: center;
+  align-items: center;
+	background: $lightblue;
+	width: 1.4rem; 
   content: "✔";
   color: $trueblue;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   position:absolute;
-  left: -1.5rem;
-  top: -0.2rem;
+  left: -1.6rem;
 }
 
 .bottom-cta{

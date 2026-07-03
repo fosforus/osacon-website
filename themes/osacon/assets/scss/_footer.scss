@@ -1,9 +1,10 @@
 
 
 .section.footer{
-	background: $gray-light;
+	background: $lightblue;
 	padding: 50px 25px; 
 	position: relative;
+	margin-bottom: 0 !important;
 }
 .section.footer::before{
 	display: block;

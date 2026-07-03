@@ -1,5 +1,5 @@
 {{ $links := .Site.Params.links }}
-
+{{ partial "bottom_cta.html" . }}
 <footer class="section footer">
 	<div class="container">
 		<div class="row">
@@ -43,9 +43,6 @@
 		</div>
 	</div>
 </footer>
-
-
-
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .link | relURL }}" crossorigin="anonymous"></script>

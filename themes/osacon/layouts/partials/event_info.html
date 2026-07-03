@@ -25,7 +25,7 @@
         <div class="row mx-auto px-md-4 border-bottom">
           {{ range .who_cards }}
           <div class="col mb-3 p-4">
-              <img src="/images/{{ .icon }}" class="card-icon-sm align-self-center pt-3 mb-3" alt="icon">
+              <img src="/images/{{ .icon }}" class="card-icon align-self-center pt-3 mb-3" alt="icon">
               <p class="fs-6 text-black"><b>{{ .title }}</b></p>
           </div>
           {{ end }}
@@ -104,7 +104,7 @@
   </div>
 </section>
 <section>
-  <div class="container">
+  <div class="container py-5 ">
     <div class="row g-md-5">
       <div class="col-12 col-md-6 col-lg-4 pb-4">
         <h3>The Community Behind OSA Con</h3>
@@ -126,56 +126,37 @@
   </div>
 </section>
 <section>
-  <div class="container my-5">
-    <div class="row rounded-4 bg-lightblue py-4 features-extended gx-sm-5">
-      {{ range .features_extended }}
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="row">
-          <div class="col-12 col-sm-3 text-center text-sm-end"><div class="feature-extended-icon"><i class="{{ .icon }}"></i></div></div>
-          <div class="col-12 col-sm-9 text-center text-sm-start">
-            <h4><span class="h3">{{ .number }}</span><br /> {{ .title }}</h4>
-            <p>{{ .text }}</p>
-          </div>
+  <div class="container-fluid my-5" style="background-color: #011A66">
+    <div class="container"><div class="row py-5 features-extended gx-sm-5 text-white">
+          {{ range .features_extended }}
+              <div class="col text-center text-sm-start">
+                <h4 class="text-white"><span class="h2 text-cyan">{{ .number }}</span><br /> {{ .title }}</h4>
+                <p class="opacity-75">{{ .text }}</p>
+              </div>
+          {{ end }}
         </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
+      </div></div>
 </section>
 <section>
-  <div class="container mt-4">
+  <div class="container py-5">
     <div class="row g-sm-5">
       <div class="col-12 col-md-6 ">
-        <h3>What Attendees Say about our meetups and past OSA Con Events</h3>
-        <div class="row">
-          <div class="col">
-        <div id="carouselOfQuotes" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner rounded">
+        <h3 class="mb-4">What Attendees Say</h3>
           {{ range $index, $element := .attendee_quotes }}
-          <div class="carousel-item {{ if eq $index 0 }}active{{ end }} position-relative">
-            <div class="card testimonial-card p-4">
-              <div class="card-body h-100">
-                <div class="card-text"><div class="text-trueblue"><i class="fa fa-quote-left"></i></div><p>{{ $element.text }}</p></div>
-              </div>
-            </div>
-          </div>
+                <div class="d-flex py-4 border-top"><div class="text-trueblue pe-2" style="margin-top:-6px;"><i class="fa fa-quote-left"></i></div><div><i>{{ $element.text }}</i></div></div>
           {{ end }}
-          </div>
-        </div>
-      </div>
-        </div>
       </div>
       <div class="col-12 col-md-6 pb-3 pb-sm-0">
-        <h3>Partner With the Community</h3>
+        <h3 class="mb-4" >Partner With the Community</h3>
         <p>Support the open-source analytics ecosystem and connect with thousands of data and analytics professionals.</p>
-        <h3>Why Sponsor?</h3>
+        <h4>Why Sponsor?</h4>
         <ul class="checklist-blue">
           <li>Reach senior engineers and technical <span style="white-space:nowrap">decision-makers</span></li>
           <li>Showcase your expertise and open-source contributions</li>
           <li>Build relationships with the analytics community</li>
           <li>Support the growth of open-source analytics and AI</li>
         </ul>
-        <a href="/files/OSA_Con_2026_Prospectus.pdf" class="btn btn-primary rounded d-block" target="_blank"> <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
+        <a href="/files/OSA_Con_2026_Prospectus.pdf" class="btn btn-primary rounded d-block d-sm-inline-block" target="_blank"> <i class="fa fa-download"></i> Download Sponsor Prospectus</a>
       </div>
     </div>
   </div>
