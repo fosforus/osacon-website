@@ -1,6 +1,6 @@
 
 #baseURL= "https://osacon.io"
-baseURL = "/"
+baseURL = "https://github.io"
 canonifyURLs = true
 title = "The Open Source Analytics Conference"
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
