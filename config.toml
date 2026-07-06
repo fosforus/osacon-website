@@ -1,7 +1,8 @@
 
 #baseURL= "https://osacon.io"
-baseURL = "https://github.io"
-canonifyURLs = true
+baseURL = "/"
+relativeURLs = true
+canonifyURLs = false
 title = "The Open Source Analytics Conference"
 description = "The Open Source Analytics Conference (OSA CON) is the go-to conference for all things open-source analytics."
 enableRobotsTXT = true
@@ -9,7 +10,6 @@ RemovePathAccents = true
 DefaultContentLanguage = "en"
 
 theme = "osacon"
-relativeURLs = true
 
 [security]
   allowContent = ['.*']
