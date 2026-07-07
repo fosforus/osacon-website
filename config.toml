@@ -105,7 +105,7 @@ subscribeURL = "https://subscribepage.io/7rOdqZ"
 slackURL = "https://go.osacom.io/slack"
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["/images/card-osacon-2025.jpg"]
+images = ["/images/social-card-2026.png"]
 start_date = "2023-12-12T09:00-05:00"
 end_date = "2023-12-14T17:00-05:00" 
 
