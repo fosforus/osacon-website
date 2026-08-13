@@ -205,8 +205,10 @@ article.swag {
 }
 
 .partner-logo {
-	width: 100%;
-	max-width: 120px;
+  width: 120px;
+  height: 80px;
+  object-fit: scale-down;
+  object-position: center;
 }
 /* Add to calendar button */
 /* The button */
